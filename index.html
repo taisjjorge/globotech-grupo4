@@ -5,9 +5,15 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="./style.css"/>
   </head>
-  <body onload="time()">  
+  <body>  
+    <h1>Olá, aqui somos o grupo 4!</h1>
+    <h4>Participantes</h4>
+    <hr>
+    <p>Gizele Rodrigues, João Paulo, Miguel Muller, Taís Amanda e Thaís Minas </p> 
+  </body>
+  <footer>
     <div>
-      <h3>Github do grupo 4</h3>
+      <h3>Github do grupo</h3>
     </div>
     <div>
       <ul>
@@ -32,43 +38,6 @@
          <li>Taís Minas</li>
         </a>
       </ul>
-      <h1>Olá, aqui somos o grupo 4!</h1>
     </div>
-
-    <hr>
-
-    <div id="clock"></div>
-
-      <footer>
-        <div>
-          <h3>Participantes</h3>
-        </div>
-        <div>
-          <ul>
-            <li>Gizele Rodrigues</li>
-            <li>João Paulo</li>
-            <li>Miguel Muller</li>
-            <li>Taís Amanda</li>
-            <li>Thaís Minas</li>
-          </ul>
-        </div>
-        <button onclick="alerta()">CLIQUE AQUI</button>
-      </footer>
-    </div>
-  </body>
-  <script type="text/javascript">
-    function time() {
-      today=new Date();
-      h=today.getHours();
-      m=today.getMinutes();
-      s=today.getSeconds();
-      document.getElementById('clock').innerHTML=h+":"+m+":"+s;
-      setTimeout('time()',500);
-    }
-
-    function alerta() {
-      alert("Juntos somos mais fortes \nOlho o console");
-      console.log("Além de sermos imbatíveis")
-    }
-    </script>
+  </footer>
 </html>
