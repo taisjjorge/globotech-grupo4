@@ -31,3 +31,31 @@ footer ul a {
   gap: 10px;
   font-weight: bold;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #e2e8f0;
+  color: #374151;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#clock {
+  font-size: 48px;
+  padding: 32px 0px;
+}
+
+button {
+  padding: 10px 53px;
+  margin: 20px;
+  border: 3px solid;
+}
